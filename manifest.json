@@ -14,8 +14,8 @@
   ],
   "orientation": "portrait",
   "background_color": "#FFFFFF",
-  "theme_color": "#123B70",
-  "lang": "te",
+  "theme_color": "#123B6D",
+  "lang": "en",
   "dir": "ltr",
   "categories": [
     "utilities",
@@ -37,21 +37,9 @@
   ],
   "shortcuts": [],
   "file_handlers": [],
-  "launch_handler": {
-    "client_mode": "navigate-existing"
-  },
   "protocol_handlers": [],
-  "prefer_related_applications": false,
   "related_applications": [],
-  "share_target": {
-    "action": "share-target/",
-    "method": "GET",
-    "params": {
-      "title": "title",
-      "text": "text",
-      "url": "url"
-    }
-  },
+  "prefer_related_applications": false,
   "iarc_rating_id": "",
   "widgets": [],
   "edge_side_panel": {},
