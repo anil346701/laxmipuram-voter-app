@@ -9,5 +9,31 @@
   "orientation": "portrait",
   "background_color": "#FFFFFF",
   "theme_color": "#123B75",
-  "description": "Laxmipuram Village Voter Search Application"
+  "description": "Laxmipuram Village Voter Search Application",
+  "lang": "en",
+  "dir": "ltr",
+  "display_override": ["standalone", "minimal-ui"],
+  "categories": ["utilities", "productivity"],
+  "prefer_related_applications": false,
+  "related_applications": [],
+  "shortcuts": [],
+  "file_handlers": [],
+  "launch_handler": {
+    "client_mode": "navigate-existing"
+  },
+  "protocol_handlers": [],
+  "share_target": {
+    "action": "/laxmipuram-voter-app/",
+    "method": "GET",
+    "params": {
+      "title": "title",
+      "text": "text",
+      "url": "url"
+    }
+  },
+  "iarc_rating_id": "",
+  "widgets": [],
+  "edge_side_panel": {},
+  "note_taking": {},
+  "scope_extensions": []
 }
