@@ -2,7 +2,7 @@
   "name": "Laxmipuram Voter Search",
   "short_name": "Voter Search",
   "id": "/laxmipuram-voter-app/",
-  "start_url": "/laxmipuram-voter-app/",
+  "id": "/laxmipuram-voter-app/",
   "scope": "/laxmipuram-voter-app/",
   "display": "standalone",
   "orientation": "portrait",
