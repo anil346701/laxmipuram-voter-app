@@ -1,0 +1,12 @@
+{
+  "name": "Laxmipuram Voter Search",
+  "short_name": "Voter Search",
+  "id": "/laxmipuram-voter-app/",
+  "start_url": "/laxmipuram-voter-app/",
+  "scope": "/laxmipuram-voter-app/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#FFFFFF",
+  "theme_color": "#123B75",
+  "description": "Laxmipuram Village Voter Search Application"
+}
