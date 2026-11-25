@@ -3,55 +3,41 @@
   "id": "/laxmipuram-voter-app/",
   "name": "Laxmipuram Voter Search",
   "short_name": "Voter Search",
-  "description": "Laxmipuram Village Voter Search Application",
+  "description": "Search Laxmipuram village voter information.",
   "start_url": "/laxmipuram-voter-app/",
   "scope": "/laxmipuram-voter-app/",
   "display": "standalone",
-  "display_override": [
-    "standalone",
-    "minimal-ui"
-  ],
   "orientation": "portrait",
   "background_color": "#FFFFFF",
-  "theme_color": "#123B6D",
+  "theme_color": "#123B70",
   "lang": "en",
   "dir": "ltr",
   "categories": [
     "utilities",
-    "government"
+    "productivity"
   ],
   "prefer_related_applications": false,
+  "related_applications": [],
   "shortcuts": [
     {
-      "name": "Search Voters",
+      "name": "Voter Search",
       "short_name": "Search",
-      "description": "Search village voter details",
-      "url": "/laxmipuram-voter-app/"
+      "url": "/laxmipuram-voter-app/",
+      "description": "Search voter information"
     }
   ],
-  "file_handlers": [],
-  "launch_handler": {
-    "client_mode": "navigate-existing"
-  },
-  "protocol_handlers": [],
-  "related_applications": [],
-  "share_target": {
-    "action": "/laxmipuram-voter-app/",
-    "method": "GET",
-    "enctype": "application/x-www-form-urlencoded",
-    "params": {
-      "title": "title",
-      "text": "text",
-      "url": "url"
+  "icons": [
+    {
+      "src": "/laxmipuram-voter-app/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/laxmipuram-voter-app/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
     }
-  },
-  "iarc_rating_id": "",
-  "widgets": [],
-  "edge_side_panel": {
-    "preferred_width": 400
-  },
-  "note_taking": {
-    "new_note_url": "/laxmipuram-voter-app/"
-  },
-  "scope_extensions": []
+  ]
 }
