@@ -1,29 +1,50 @@
 
 {
+  "id": "/laxmipuram-voter-app/",
   "name": "Laxmipuram Voter Search",
   "short_name": "Voter Search",
-  "id": "/laxmipuram-voter-app/",
+  "description": "Laxmipuram Village Voter Search Application",
   "start_url": "/laxmipuram-voter-app/",
   "scope": "/laxmipuram-voter-app/",
   "display": "standalone",
+  "display_override": [
+    "standalone",
+    "minimal-ui",
+    "browser"
+  ],
   "orientation": "portrait",
   "background_color": "#FFFFFF",
-  "theme_color": "#123B75",
-  "description": "Laxmipuram Village Voter Search Application",
-  "lang": "en",
+  "theme_color": "#123B70",
+  "lang": "te",
   "dir": "ltr",
-  "display_override": ["standalone", "minimal-ui"],
-  "categories": ["utilities", "productivity"],
-  "prefer_related_applications": false,
-  "related_applications": [],
+  "categories": [
+    "utilities",
+    "productivity"
+  ],
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
   "shortcuts": [],
   "file_handlers": [],
   "launch_handler": {
     "client_mode": "navigate-existing"
   },
   "protocol_handlers": [],
+  "prefer_related_applications": false,
+  "related_applications": [],
   "share_target": {
-    "action": "/laxmipuram-voter-app/",
+    "action": "share-target/",
     "method": "GET",
     "params": {
       "title": "title",
